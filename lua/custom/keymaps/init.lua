@@ -1,5 +1,7 @@
 local set = vim.keymap.set
 
+set('n', '<leader>b', ':b#<CR>', { desc = 'Go to alternate buffer' })
+
 set('n', '<C-d>', '<C-d>zz', { desc = 'Go half page down and center' })
 set('n', '<C-u>', '<C-u>zz', { desc = 'Go half page up and center' })
 
